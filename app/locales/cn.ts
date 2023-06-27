@@ -179,16 +179,16 @@ const cn = {
       SubTitle: "tokens数量",
     },
     ChatCount: {
-      Title: "询问次数",
-      SubTitle: "询问次数（GPT3.5等）",
+      Title: "普通对话次数",
+      SubTitle: "剩余普通对话次数（GPT3.5等）",
     },
     AdvanceChatCount: {
-      Title: "询问次数（GPT4）",
-      SubTitle: "询问次数（GPT4）",
+      Title: "高级对话次数",
+      SubTitle: "剩余高级对话次数（GPT4等）",
     },
     DrawCount: {
       Title: "绘图次数",
-      SubTitle: "绘图次数",
+      SubTitle: "剩余绘图次数",
     },
     Actions: {
       Close: "关闭",
