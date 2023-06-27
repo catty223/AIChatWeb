@@ -112,32 +112,32 @@ const cn = {
     SubTitle: "注册后赠送免费额度哦",
     Name: {
       Title: "昵称",
-      SubTitle: "",
-      Placeholder: "请输入昵称，可不填",
+      SubTitle: "选填，不支持中文",
+      Placeholder: "请输入昵称",
     },
     Email: {
       Title: "邮箱",
-      SubTitle: "",
+      SubTitle: "请尽量使用国内邮箱",
       Placeholder: "请输入邮箱",
     },
     EmailCode: {
       Title: "验证码",
-      SubTitle: "系统将向您邮箱发送的验证码",
+      SubTitle: "系统将向您发送验证码",
       Placeholder: "请输入验证码",
     },
     Username: {
       Title: "用户名",
-      SubTitle: "",
+      SubTitle: "用于登录，不支持中文",
       Placeholder: "请输入用户名",
     },
     Password: {
       Title: "密码",
-      SubTitle: "",
+      SubTitle: "请确保密码安全",
       Placeholder: "请输入密码",
     },
     ConfirmedPassword: {
       Title: "确认密码",
-      SubTitle: "",
+      SubTitle: "请确保密码输入一致",
       Placeholder: "请再次输入密码",
     },
     Actions: {
@@ -440,7 +440,7 @@ const cn = {
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
     Title: "挑选一个面具",
-    SubTitle: "现在开始，与面具背后的灵魂思维碰撞",
+    SubTitle: "为GPT设置身份，与面具背后的灵魂思维碰撞",
     More: "查看全部",
   },
 
