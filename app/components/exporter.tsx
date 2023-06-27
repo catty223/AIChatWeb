@@ -450,7 +450,7 @@ export function ImagePreviewer(props: {
               {websiteConfigStore.title || "高翊GPT"}
             </div>
             <div className={styles["sub-title"]}>
-              {websiteConfigStore.subTitle || "github.com/Nanjiren01/AIChatWeb"}
+              {websiteConfigStore.subTitle || "github.com/lannychan/AIChatWeb"}
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />
