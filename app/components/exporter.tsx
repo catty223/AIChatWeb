@@ -447,7 +447,7 @@ export function ImagePreviewer(props: {
 
           <div>
             <div className={styles["main-title"]}>
-              {websiteConfigStore.title || "AI Chat"}
+              {websiteConfigStore.title || "高翊GPT"}
             </div>
             <div className={styles["sub-title"]}>
               {websiteConfigStore.subTitle || "github.com/Nanjiren01/AIChatWeb"}
