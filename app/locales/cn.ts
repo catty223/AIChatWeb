@@ -112,12 +112,12 @@ const cn = {
     SubTitle: "注册后赠送免费额度哦",
     Name: {
       Title: "昵称",
-      SubTitle: "选填,不支持中文",
+      SubTitle: "选填,不少于4个字符",
       Placeholder: "请输入昵称",
     },
     Email: {
       Title: "邮箱",
-      SubTitle: "请使用国内邮箱",
+      SubTitle: "请尽量使用国内邮箱",
       Placeholder: "请输入邮箱",
     },
     EmailCode: {
