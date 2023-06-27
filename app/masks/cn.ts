@@ -1,6 +1,74 @@
 import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
+    {
+    avatar: "gpt-bot",
+    name: "gpt-3.5-turbo",
+    context: [
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "gpt-bot",
+    name: "gpt-3.5-turbo-16k",
+    context: [
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo-16k",
+      temperature: 0.5,
+      max_tokens: 8000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 16,
+      compressMessageLengthThreshold: 4000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "gpt-bot",
+    name: "gpt-4",
+    context: [
+    ],
+    modelConfig: {
+      model: "gpt-4",
+      temperature: 0.5,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+  {
+    avatar: "gpt-bot",
+    name: "gpt-4-32k",
+    context: [
+    ],
+    modelConfig: {
+      model: "gpt-4-32k",
+      temperature: 0.5,
+      max_tokens: 8000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 16,
+      compressMessageLengthThreshold: 4000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
   {
     avatar: "1f5bc-fe0f",
     name: "以文搜图",
