@@ -185,10 +185,10 @@ export function SideBar(props: {
     >
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>
-          {websiteConfigStore.title || "AI Chat"}
+          {websiteConfigStore.title || "高翊GPT"}
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          {websiteConfigStore.subTitle || "Build your own AI assistant."}
+          {websiteConfigStore.subTitle || "Powered by Lanny Chan."}
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           {logoLoading ? (
