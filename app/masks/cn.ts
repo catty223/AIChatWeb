@@ -3,7 +3,7 @@ import { BuiltinMask } from "./typing";
 export const CN_MASKS: BuiltinMask[] = [
   {
     avatar: "gpt-bot",
-    name: "gpt-3.5-turbo",
+    name: "gpt-3.5",
     context: [
     ],
     modelConfig: {
@@ -20,7 +20,7 @@ export const CN_MASKS: BuiltinMask[] = [
   },
   {
     avatar: "gpt-bot",
-    name: "gpt-3.5-turbo-16k",
+    name: "gpt-3.5-16k",
     context: [
     ],
     modelConfig: {
