@@ -140,7 +140,7 @@ export function useSwitchTheme() {
   }, [config.theme]);
 
   useEffect(() => {
-    document.title = useWebsiteConfig.title || "AI Chat";
+    document.title = useWebsiteConfig.title || "高翊GPT";
   }, [useWebsiteConfig.title]);
 }
 
