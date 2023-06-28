@@ -127,12 +127,12 @@ const cn = {
     },
     Username: {
       Title: "用户名",
-      SubTitle: "必填,不支持中文",
+      SubTitle: "仅支持数字与英文字母",
       Placeholder: "请输入用户名",
     },
     Password: {
       Title: "密码",
-      SubTitle: "请确保密码安全",
+      SubTitle: "请确保输入密码安全",
       Placeholder: "请输入密码",
     },
     ConfirmedPassword: {
