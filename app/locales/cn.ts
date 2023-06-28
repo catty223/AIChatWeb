@@ -132,7 +132,7 @@ const cn = {
     },
     Password: {
       Title: "密码",
-      SubTitle: "请确保输入密码安全",
+      SubTitle: "请确保密码安全",
       Placeholder: "请输入密码",
     },
     ConfirmedPassword: {
