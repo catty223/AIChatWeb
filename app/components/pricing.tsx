@@ -97,14 +97,14 @@ export function Pricing() {
                 (pkg.chatCount
                   ? `<li>${prefix} <span style="font-size: 18px;">${
                       pkg.chatCount === -1 ? "无限" : pkg.chatCount
-                    }</span> 次普通对话（GPT3.5等）</li>`
+                    }</span> 次普通聊天（GPT3.5等）</li>`
                   : "") +
                 (pkg.advancedChatCount
                   ? `<li>${prefix} <span style="font-size: 18px;">${
                       pkg.advancedChatCount === -1
                         ? "无限"
                         : pkg.advancedChatCount
-                    }</span> 次高级对话（GPT4等）</li>`
+                    }</span> 次高级聊天（GPT4等）</li>`
                   : "") +
                 (pkg.drawCount
                   ? `<li>${prefix} <span style="font-size: 18px;">${
