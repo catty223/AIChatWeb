@@ -87,7 +87,7 @@ const cn = {
     Title: "登录",
     SubTitle: "登录后可跟AI交流",
     Username: {
-      Title: "用户名或邮箱",
+      Title: "账号",
       SubTitle: "",
       Placeholder: "请输入用户名或邮箱",
     },
@@ -112,7 +112,7 @@ const cn = {
     SubTitle: "注册后赠送免费额度哦",
     Name: {
       Title: "昵称",
-      SubTitle: "选填,不少于4个字符",
+      SubTitle: "",
       Placeholder: "请输入昵称",
     },
     Email: {
@@ -137,7 +137,7 @@ const cn = {
     },
     ConfirmedPassword: {
       Title: "确认密码",
-      SubTitle: "请确保密码一致",
+      SubTitle: "请确保密码输入一致",
       Placeholder: "请再次输入密码",
     },
     Actions: {
@@ -173,10 +173,10 @@ const cn = {
   Profile: {
     Title: "个人中心",
     SubTitle: "个人中心",
-    Username: "账号",
+    Username: "用户名",
     Tokens: {
       Title: "tokens",
-      SubTitle: "tokens数量",
+      SubTitle: "剩余tokens数量",
     },
     ChatCount: {
       Title: "普通对话次数",
@@ -187,8 +187,8 @@ const cn = {
       SubTitle: "剩余高级对话次数（GPT4等）",
     },
     DrawCount: {
-      Title: "绘图次数",
-      SubTitle: "剩余绘图次数",
+      Title: "AI绘图次数",
+      SubTitle: "剩余AI绘图次数",
     },
     Actions: {
       Close: "关闭",
