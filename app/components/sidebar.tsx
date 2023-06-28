@@ -188,14 +188,14 @@ export function SideBar(props: {
         <div
           className={styles["sidebar-title"]}
           dangerouslySetInnerHTML={{
-            __html: websiteConfigStore.mainTitle || "AI Chat",
+            __html: websiteConfigStore.mainTitle || "高翊GPT",
           }}
         ></div>
         <div
           className={styles["sidebar-sub-title"]}
           dangerouslySetInnerHTML={{
             __html:
-              websiteConfigStore.subTitle || "Build your own AI assistant.",
+              websiteConfigStore.subTitle || "Powered by Lanny Chan.",
           }}
         ></div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
