@@ -1,7 +1,7 @@
 import { SubmitKey } from "../store/config";
 
 const cn = {
-  WIP: "该功能仍在开发中……",
+  WIP: "请在面具中选择gpt-4-browsing模型",
   Error: {
     Unauthorized: "登录信息已过期，请前往[登录页](/#/login)",
     Login: "您已登录，请点击上方「重试」按钮",
@@ -396,7 +396,7 @@ const cn = {
     Revert: "恢复上下文",
   },
   Plugin: {
-    Name: "插件",
+    Name: "联网",
   },
   Mask: {
     Name: "面具",
