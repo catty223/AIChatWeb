@@ -54,17 +54,17 @@ export const CN_MASKS: BuiltinMask[] = [
   },
   {
     avatar: "gpt-bot",
-    name: "gpt-4-32k",
+    name: "gpt-4-browsing",
     context: [
     ],
     modelConfig: {
-      model: "gpt-4-32k",
+      model: "gpt-4-browsing",
       temperature: 0.5,
-      max_tokens: 8000,
+      max_tokens: 2000,
       presence_penalty: 0,
       sendMemory: true,
-      historyMessageCount: 16,
-      compressMessageLengthThreshold: 4000,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
     },
     lang: "cn",
     builtin: true,
