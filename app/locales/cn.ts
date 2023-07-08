@@ -396,7 +396,7 @@ const cn = {
     Revert: "恢复上下文",
   },
   Plugin: {
-    Name: "联网",
+    Name: "插件",
   },
   Mask: {
     Name: "面具",
