@@ -61,11 +61,19 @@ export const ALL_MODELS = [
     available: true,
   },
   {
+    name: "gpt-3.5-turbo-poe",
+    available: true,
+  },
+  {
     name: "gpt-4",
     available: ENABLE_GPT4,
   },
   {
     name: "gpt-4-32k",
+    available: ENABLE_GPT4,
+  },
+  {
+    name: "gpt-4-poe",
     available: ENABLE_GPT4,
   },
   {
